@@ -1,0 +1,11 @@
+FlyHigh SlipStream
+Copyright 2026 getflyhigh (https://github.com/getflyhigh)
+
+The code in this repository is licensed under the Apache License, Version 2.0. See LICENSE.
+
+The FlyHighFG model weights are not part of this repository. They ship with flyhigh-engine under Creative Commons
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0); commercial use of the weights needs a separate license
+from the maintainers.
+
+Third-party dependencies are fetched by Cargo and are not vendored here; each remains under its own license (see
+Cargo.lock). The openh264 crate builds Cisco's OpenH264 from source (BSD-2-Clause).

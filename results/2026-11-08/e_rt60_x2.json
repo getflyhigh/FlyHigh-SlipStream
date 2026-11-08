@@ -1,0 +1,51 @@
+{
+  "client_cpu_ms_per_pair_unpack": 1.3419066666666664,
+  "client_gpu_ms_per_pair_local_engine": 5.413001666666665,
+  "client_gpu_ms_per_pair_render_only": 0.80526,
+  "client_prep_ms_per_frame_cpu": 60.499578688524586,
+  "codec": "j50.40",
+  "download_kb_per_pair": 13.719075520833334,
+  "download_mbit_s": 6.430816650390625,
+  "fps": 60,
+  "frame": [
+    1920,
+    1080
+  ],
+  "latency_ms": {
+    "max": 1080.0493,
+    "mean": 866.6413583333331,
+    "n": 60,
+    "p50": 882.2443000000001,
+    "p95": 1060.3692999999998
+  },
+  "local_gpu": "Vulkan NVIDIA GeForce RTX 4060 Ti (DiscreteGpu)",
+  "maps": [
+    216,
+    120
+  ],
+  "mode": "motion",
+  "mult": 2,
+  "network": [
+    864,
+    480
+  ],
+  "pairs": 60,
+  "psnr_hold_vs_truth": 22.586542698039185,
+  "psnr_local_vs_truth": 28.128316365697007,
+  "psnr_slipstream_vs_local": 43.268972761763585,
+  "psnr_slipstream_vs_truth": 28.084721125315607,
+  "raw_maps_kb": 506.25,
+  "server_gpu": "Vulkan NVIDIA GeForce RTX 5090 (DiscreteGpu)",
+  "server_ms": {
+    "max": 11.727185249328613,
+    "mean": 9.51869691212972,
+    "n": 60,
+    "p50": 9.504053115844727,
+    "p95": 11.339371681213379
+  },
+  "setup_ms": 264.1126,
+  "stream_s": 1.8740206000000001,
+  "upload": "jpeg30",
+  "upload_kb_per_frame": 33.23848936987705,
+  "upload_mbit_s": 15.580541892129867
+}

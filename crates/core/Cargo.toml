@@ -1,0 +1,19 @@
+[package]
+name = "slipstream-core"
+description = "FlyHigh SlipStream: wire format, map codecs and the engine session both ends share"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dependencies]
+flyhigh-engine.workspace = true
+wgpu.workspace = true
+pollster.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+half.workspace = true
+bytemuck.workspace = true
+zstd.workspace = true
+image.workspace = true
